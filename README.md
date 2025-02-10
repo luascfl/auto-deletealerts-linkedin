@@ -23,9 +23,31 @@ Este script automatiza o processo de exclusão de notificações de alertas de e
 ## Uso
 O script começará automaticamente a excluir seus alertas de emprego. Ele tentará clicar no botão "Editar", depois no botão "Excluir" e, finalmente, confirmará a exclusão. Cada etapa é registrada no console.
 
+## Bookmarklet
+
+Este projeto não requer nenhuma instalação no sentido tradicional. Em vez disso, você instala o bookmarklet diretamente no seu navegador:
+
+1. **Selecione o Código do Bookmarklet:** Selecione todo o código JavaScript do arquivo escolhido. Para selecionar tudo, use CTRL+A.
+* Use o código do arquivo `Bookmarklet (Selecione o código e arraste para a barra de favoritos) Deletar alertas do LinkedIn.js`.
+
+2. Arraste o código para sua barra de favoritos para criar um novo bookmarklet.
+* Se você estiver na pasta de favoritos desejada com o código copiado, cole-o.
+
+3. **Dê um Nome:** Dê ao seu favorito um nome descritivo (por exemplo, "Deletar alertas do LinkedIn").
+
+## Uso
+
+1. **Navegue até os alertas do LinkedIn:** Vá para a página de alertas de vagas do LinkedIn (`https://www.linkedin.com/jobs/jam/`).
+
+2. **Clique no Bookmarklet:** Clique no bookmarklet que você criou. Pode aparecer uma mensagem pedindo para clicar novamente após o carregamento da página. Clique no bookmarklet novamente após uma breve espera. Caixas de seleção aparecerão ao lado de cada notificação.
+* Se você não estiver em (`https://www.linkedin.com/jobs/jam/`), o script irá redirecioná-lo para a página.
+
+3. **Clique em "Deletar alertas do LinkedIn":** Clique no botão apropriado para excluir todos os alertas automaticamente.
+
 ## Estrutura do Projeto
 O projeto consiste em um único arquivo JavaScript:
 * `Apagar todos os alertas LinkedIn.js`: Contém o script principal para excluir alertas de emprego no LinkedIn.
+* `Bookmarklet (Selecione o código e arraste para a barra de favoritos) Deletar alertas do LinkedIn.js`: A versão do código em bookmarklet.
 * `LICENSE`: Contém a Licença MIT para o projeto.
 
 ## Configuração
